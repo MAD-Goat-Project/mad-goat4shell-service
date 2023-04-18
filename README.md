@@ -1,2 +1,3 @@
 # mad-goat-log4shell
-MAD Goat spring boot application explaning what the a goat shell is :)
+
+MAD Goat spring boot application explaning what a goat shell is :)
