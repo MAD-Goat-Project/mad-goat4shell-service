@@ -2,7 +2,7 @@ name: Publish a Docker image
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'safe' ]
   workflow_dispatch:
 
 jobs:
