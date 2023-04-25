@@ -1,4 +1,4 @@
-package com.example.madgoatlog4shell;
+package com.example.goat4shell;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
