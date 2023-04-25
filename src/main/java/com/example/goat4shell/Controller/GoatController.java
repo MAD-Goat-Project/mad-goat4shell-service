@@ -1,7 +1,7 @@
-package com.example.madgoatlog4shell.Controller;
+package com.example.goat4shell.Controller;
 
-import com.example.madgoatlog4shell.Model.GoatShell;
-import com.example.madgoatlog4shell.Utils.Strings;
+import com.example.goat4shell.Model.GoatShell;
+import com.example.goat4shell.Utils.Strings;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;

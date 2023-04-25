@@ -1,4 +1,4 @@
-package com.example.madgoatlog4shell.Model;
+package com.example.goat4shell.Model;
 
 public class GoatShell {
     private final String name;
