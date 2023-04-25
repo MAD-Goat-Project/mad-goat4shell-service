@@ -1,8 +1,8 @@
 package com.example.madgoatlog4shell.Model;
 
 public class GoatShell {
-    private String name;
-    private String description;
+    private final String name;
+    private final String description;
 
     public GoatShell(String name, String description) {
         this.name = name;
