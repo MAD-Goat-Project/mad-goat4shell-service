@@ -18,7 +18,7 @@ public class GoatController {
         return "Welcome to the Mad Goat Log4Shell!";
     }
 
-    @GetMapping("/goatShell/unsafe")
+    @GetMapping("/goatShell")
     public GoatShell goat(@RequestHeader(value = "X-API-Version") String apiVersion) {
 
         // This is a vulnerable endpoint that logs the user agent
