@@ -23,7 +23,7 @@ public class GoatControllerTest {
 
     @Test
     public void testGoatShellUnsafe() throws Exception {
-        this.mockMvc.perform(get("/goatShell/unsafe")
+        this.mockMvc.perform(get("/goatShell")
                         .header("X-API-Version", "test"))
                 .andExpect(status().isOk());
     }
