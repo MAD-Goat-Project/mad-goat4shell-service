@@ -4,6 +4,7 @@ import com.example.goat4shell.Model.GoatShell;
 import com.example.goat4shell.Utils.Strings;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,8 @@ public class GoatController {
     public String index() {
         return "Welcome to the Mad Goat Log4Shell!";
     }
+
+    @CrossOrigin
 
     @GetMapping("/goatShell")
     public GoatShell goat(@RequestHeader(value = "X-API-Version") String apiVersion) {
