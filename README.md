@@ -2,9 +2,10 @@
 
 MAD Goat spring boot application explaning what a goat shell is. :goat:
 
-**Warning:**This application may contain the log4shell vulnerability depending on the version of the log4j library used.
-**Warning:**On the branch safe you can find a version of the application that does not contain the vulnerability.
-**Warning:**On the branch unsafe you can find a version of the application that contains the vulnerability.
+> **Warning**
+> This application may contain the log4shell vulnerability depending on the version of the log4j library used.
+> On the branch safe you can find a version of the application that does not contain the vulnerability.
+> On the branch unsafe you can find a version of the application that contains the vulnerability.
 
 ## Pre-requisites
 
