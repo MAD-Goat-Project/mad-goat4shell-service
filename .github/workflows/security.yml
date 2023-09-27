@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - unsafe
   pull_request:
     types: [opened, synchronize, reopened]
 
