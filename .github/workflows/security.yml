@@ -3,7 +3,7 @@ name: Run Security Scans
 on:
   push:
     branches:
-      - unsafe
+      - safe
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
